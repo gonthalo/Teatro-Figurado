@@ -2,12 +2,31 @@ body {
 	background-color: white;
 	color: rgb(20, 20, 20);
 }
+p {
+	padding: none;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 p.guia {
 	text-decoration: bold;
 	font-family: courier;
-	text-align: left;
-	margin-left: 6%;
-	margin-right: 6%;
+	text-align: justify;
+	letter-spacing: -1px;
+}
+p.gc {
+	color: rgb(40, 0, 0);
+}
+p.gf {
+	color: rgb(0, 0, 40);
+}
+ul.guia {
+	padding: none;
+	text-decoration: bold;
+	font-family: courier;
+	text-align: justify;
+	margin-left: 16%;
+	margin-right: 16%;
+	letter-spacing: -1px;
 }
 h2 {
 	text-align: center;
@@ -17,9 +36,9 @@ h2 {
 }
 h3 {
 	text-align: center;
-	font-size: 20;
-	text-decoration: none;
-	font-family: verdana;
+	font-size: 40;
+	text-decoration: underline;
+	font-family: palatino;
 }
 h1 {
 	text-align: center;
