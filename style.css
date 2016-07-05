@@ -28,7 +28,7 @@ ul.gb {
 	list-style-type: none;
 	font-family: monospace;
 	font-size: 15px;
-	color: rgb(5, 200, 100);
+	color: rgb(5, 250, 100);
 	background-color: black;
 	margin-left: 20%;
 	margin-right: 44%;
@@ -62,4 +62,23 @@ h1 {
 	font-family: arial;
 	padding: none;
 	margin: none;
+}
+a:link {
+	color: blue;
+    text-decoration: bold;
+}
+
+a:visited {
+	color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+	color: rgb(5, 250, 100);
+    text-decoration: underline;
+}
+
+a:active {
+	color: white;
+    text-decoration: underline;
 }
