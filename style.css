@@ -4,8 +4,8 @@ body {
 }
 p {
 	padding: none;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 16%;
+	margin-right: 16%;
 }
 p.guia {
 	text-decoration: bold;
@@ -14,31 +14,47 @@ p.guia {
 	letter-spacing: -1px;
 }
 p.gc {
-	color: rgb(40, 0, 0);
+	color: rgb(30, 0, 0);
 }
 p.gf {
-	color: rgb(0, 0, 40);
+	color: rgb(0, 0, 30);
+}
+p.ac {
+	color: rgb(0, 30, 0);
+}
+ul {
+}
+ul.gb {
+	list-style-type: none;
+	font-family: monospace;
+	font-size: 15px;
+	color: rgb(5, 200, 100);
+	background-color: black;
+	margin-left: 20%;
+	margin-right: 44%;
 }
 ul.guia {
 	padding: none;
 	text-decoration: bold;
 	font-family: courier;
-	text-align: justify;
-	margin-left: 16%;
-	margin-right: 16%;
+	text-align: left;
 	letter-spacing: -1px;
+	margin-left: 22%;
+	margin-right: 22%;
 }
 h2 {
 	text-align: center;
 	font-family: times;
-	font-size: 25;
+	font-size: 25px;
 	font-style: italic;
 }
 h3 {
 	text-align: center;
-	font-size: 40;
+	font-size: 40px;
 	text-decoration: underline;
 	font-family: palatino;
+	padding: none;
+	margin: 0;
 }
 h1 {
 	text-align: center;
