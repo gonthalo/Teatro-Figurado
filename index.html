@@ -4,6 +4,7 @@
 		<title>Teatro Figurado</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
 	</head>
 	<body>
 		<br><br>
@@ -43,7 +44,8 @@
 		<p class="guia">A continuación se ofrece una muestra de teatro figurado para mostrar que es posible escribirlo:</p>
 		<br><br>
 		<h3>Estafando a Godot</h3>
-		<p align="center">~ Acto I ~</p>
+		<p align="center" type="flip" onClick="show1();">~ Acto I ~</p>
+		<div style="display:none" id="acto1">
 		<p class="ac">(Se levanta el telón. La acción discurre en un laberíntico edificio con las paredes repletas de archivos y gran algarabía. La gallina Catalina y el gato Feldespato discuten, en un rincón apartado, cómo rellenar la declaración de la renta)</p>
 		<p class="gc">gallina C.: ¡Oh, fatalidad! ¡Marqué más de tres opciones! ¡He de volver a empezar, y rehacerlo en condiciones!</p>
 		<p class="gf">gato F.: Pero, cómo, ¿otra vez?</p>
@@ -64,7 +66,8 @@
 		<p class="ac">(La máquina expulsa numerosos granos de trigo, que la gallina picotea con fruición. Telón)</p>
 		<p align="center">~ Fin del acto I ~</p>
 		<br>
-		<p align="center">~ Acto II ~</p>
+		<p align="center" class="flip" onclick="show2();">~ Acto II ~</p>
+		<div style="display:none" id="acto2">
 		<p class="ac">(La gallina Catalina se halla en un jardín de aspecto bucólico en el que trinan los pajarillos. Llega el gato Feldespato, con paso decidido y aire de galán)</p>
 		<p class="gc">gallina C.: ¡Vaya! ¿Quién está ahí?</p>
 		<p class="gf">gato F.: ¡Vaya! Hoy estás más que hermosa, tus alas divinas, tus patas esbeltas, y tu cresta como la máxima expresión de la primavera primorosa.</p>
@@ -87,5 +90,8 @@
 		<h3>FIN</h3>
 		<br>
 		<p>Moraleja: la vida no es sino una gran obra de teatro figurado.</p>
+		</div>
+		</div>
+		<br><br><br><br><br><br><br><br><br>
 	</body>
 </html>
